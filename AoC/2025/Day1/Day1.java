@@ -42,10 +42,14 @@ public class Day1 {
         return crosses;
     }
     public static void main(String[] args) {
-        
+
+        System.out.println("wtf");
+
         // Get input file
         String inputFile = args.length > 0 ? args[0] : "AoC/2025/Day1/day1.txt";
-        
+
+
+
         try (Scanner sc = new Scanner(new File(inputFile)))
         {
             while (sc.hasNextLine()) 
